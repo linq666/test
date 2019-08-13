@@ -10,6 +10,7 @@ namespace Sourcer
     {
         [Key]
         public string cus_nbr { get; set; }
+        public string cus_nbr1 { get; set; }
 
     }
 }
