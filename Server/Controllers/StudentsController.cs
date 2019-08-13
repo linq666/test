@@ -27,7 +27,7 @@ namespace Server.Controllers
         {
             var result = _context.Student.Select(s => new Student { FirstName = s.FirstName , LastName = s.LastName}).ToListAsync();
 
-
+            //
             return await result;
         }
 
