@@ -9,7 +9,12 @@ namespace Sourcer
     public class Author
     {
         ////
+        /// <summary>
+        /// 
+        /// </summary>
         public int Id { get; set; }
         public string AuthorName { get; set; }
+
+        public int MyProperty { get; set; }
     }
 }
