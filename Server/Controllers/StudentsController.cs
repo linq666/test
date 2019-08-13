@@ -25,7 +25,7 @@ namespace Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudent()
         {
-            var result = _context.Student.Select(s => new Student { FirstName = s.FirstName}).ToListAsync();
+            var result = _context.Student.Select(s => new Student { FirstName = s.FirstName , LastName = s.LastName}).ToListAsync();
 
 
             return await result;
